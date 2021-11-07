@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ikia Rillera-Hydro Flask Product Deisgn Website</title>
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+    <!-- CSS -->
+    <link href="Hstyle.css" rel="stylesheet">
+    <meta name="robots" content="noindex,follow" />
+      <div class="navbar">
+      <ul class="navbar-container">
+        <li><a href="#" class="left-underline nav-button brand-logo">Shop Kart Republic</a></li>
+       
+        <li class="nav-item"><a href="products.html" class="left-underline nav-button" data-scroll>Products</a></li>
+        <li class="nav-item active"><a href="index.html" class="left-underline nav-button" data-scroll>Home</a></li>
+      </ul>
+    </div>
+
+  </head>
+
+  <body>
+    <main class="container">
+
+      <!-- Left Column / Bottle image -->
+      <div class="left-column">
+        <img data-image="Maroon" src="images/Maroon.jpg" alt="">
+        <img data-image="Green" src="images/GreenB.jpg" alt="">
+        <img data-image="Teal" class="active" src="images/Teal.jpg" alt="">
+      </div>
+
+
+      <!-- Right Column -->
+      <div class="right-column">
+
+        <!-- Product Description -->
+        <div class="product-description">
+          <span>Water Bottle</span>
+          <h1>Hydro Flask</h1>
+          <p>Made to be your go-to sidekick from office to trailhead, Hydro Flask stainless steel water bottles are vacuum-insulated and keep cold drinks cold and hot drinks hot for hours. Both the Standard Mouth and Wide Mouth options have plenty of room for loading in ice and come with the easy-carry Flex Cap.</p>
+        </div>
+
+        <!-- Product Configuration -->
+        <div class="product-configuration">
+
+          <!-- Product Color -->
+          <div class="product-color">
+            <span>Color</span>
+
+            <div class="color-choose">
+              <div>
+                <input data-image="Teal" type="radio" id="Teal" name="color" value="Teal" checked>
+                <label for="Teal"><span></span></label>
+              </div>
+              <div>
+                <input data-image="Green" type="radio" id="Green" name="color" value="Green">
+                <label for="Green"><span></span></label>
+              </div>
+              <div>
+                <input data-image="Maroon" type="radio" id="Maroon" name="color" value="Maroon">
+                <label for="Maroon"><span></span></label>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Size -->
+          <div class="Size">
+            <span>Size</span>
+
+            <div class="Choose-size">
+              <button>21 oz</button>
+              <button>32 oz</button>
+              <button>40 oz</button>
+            </div>
+
+            <a href="#">How to maintain your Hyrdro Flask</a>
+          </div>
+        </div>
+
+        <!-- Product Pricing -->
+        <div class="product-price">
+          <span>100$</span>
+          <a href="#" class="cart-btn">Add to cart</a>
+        </div>
+      </div>
+    </main>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" charset="utf-8"></script>
+    <script src="Hscript.js" charset="utf-8"></script>
+  </body>
+</html>

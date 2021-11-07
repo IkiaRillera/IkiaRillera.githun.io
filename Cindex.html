@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Copper Mask</title>
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+    <!-- CSS -->
+    <link href="Cstyle.css" rel="stylesheet">
+    <meta name="robots" content="noindex,follow" />
+      <div class="navbar">
+      <ul class="navbar-container">
+        <li><a href="#" class="left-underline nav-button brand-logo">Shop Kart Republic</a></li>
+       
+        <li class="nav-item"><a href="products.html" class="left-underline nav-button" data-scroll>Products</a></li>
+        <li class="nav-item active"><a href="index.html" class="left-underline nav-button" data-scroll>Home</a></li>
+      </ul>
+    </div>
+
+  </head>
+
+  <body>
+    <main class="container">
+
+      <!-- Left Column / Headphones Image -->
+      <div class="left-column">
+        <img data-image="Gray" src="images/Gray.png" alt="">
+        <img data-image="Green" src="images/Green.png" alt="">
+        <img data-image="Pink" class="active" src="images/Pink.png" alt="">
+      </div>
+
+
+      <!-- Right Column -->
+      <div class="right-column">
+
+        <!-- Product Description -->
+        <div class="product-description">
+          <span>Protective Face Mask</span>
+          <h1>CopperMask</h1>
+          <p>Features:
+- BLOCKS 99.9% OF COMMON BACTERIA AND VIRUSES
+- KILLS 99.9% OF BACTERIA 
+- NO DETECTED HARMFUL CHEMICALS AND HEAVY METALS 
+- Comfortable respiration
+- Harmless to humans</p>
+        </div>
+
+        <!-- Product Configuration -->
+        <div class="product-configuration">
+
+          <!-- Product Color -->
+          <div class="product-color">
+            <span>Color</span>
+
+            <div class="color-choose">
+              <div>
+                <input data-image="Gray" type="radio" id="Gray" name="color" value="Gray" checked>
+                <label for="Gray"><span></span></label>
+              </div>
+              <div>
+                <input data-image="Green" type="radio" id="Green" name="color" value="Green">
+                <label for="Green"><span></span></label>
+              </div>
+              <div>
+                <input data-image="Pink" type="radio" id="Pink" name="color" value="Pink">
+                <label for="Pink"><span></span></label>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Size -->
+          <div class="size-config">
+            <span>Mask Size</span>
+
+            <div class="size-choose">
+              <button>Small</button>
+              <button>Medium</button>
+              <button>Large</button>
+            </div>
+
+            <a href="#">How to assemble and maintain CopperMask</a>
+          </div>
+        </div>
+
+        <!-- Product Pricing -->
+        <div class="product-price">
+          <span>53$</span>
+          <a href="#" class="cart-btn">Add to cart</a>
+        </div>
+      </div>
+    </main>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" charset="utf-8"></script>
+    <script src="Cscript.js" charset="utf-8"></script>
+  </body>
+</html>
